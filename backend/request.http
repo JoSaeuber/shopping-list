@@ -1,0 +1,10 @@
+### 1. Create an item
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "name": "Milk"
+}
+
+### 2. Get the list of items
+GET http://localhost:3000/items
